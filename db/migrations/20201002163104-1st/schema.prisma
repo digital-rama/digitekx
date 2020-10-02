@@ -3,7 +3,7 @@
 
 datasource db {
   provider = "mysql"
-  url      = "mysql://itkfodcz_digitalrama:vyh5a64Ju3kEPt2@ray.herosite.pro:3306/itkfodcz_digitekx"
+  url = "***"
 }
 
 generator client {
