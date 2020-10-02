@@ -55,6 +55,7 @@ const Home: BlitzPage = () => {
         <div className="logo">
           <img src="/logo.png" alt="blitz.js" />
         </div>
+        <h1 style={{ fontSize: "3rem", color: "dodgerblue" }}>Welcome to Digitekx</h1>
         <p>
           <strong>Congrats!</strong> Your app is ready, including user sign-up and log-in.
         </p>
