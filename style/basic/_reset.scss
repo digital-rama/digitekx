@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+:root {
+  scroll-behavior: smooth;
+}
+
+
+html::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #0000ee, #0000ee);
+  border-radius: 20px;
+  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+  transition: background ease-in-out 350ms;
+
+  &:hover {
+    background: linear-gradient(120deg, #eeee00, #eeee00);
+  }
+}
+
+html::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, #201c29, #201c29 1px, #100e17 0, #100e17);
+}
+
+::selection {
+  background: #0000ee;
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
